@@ -178,6 +178,11 @@ resource "aws_autoscaling_group" "graphql_asg" {
     id      = aws_launch_template.graphql_lt.id
     version = "$Latest"
   }
+  tag {
+    key                 = "Name"
+    value               = "EC2-GraphQL-Gateway" 
+    propagate_at_launch = true
+  }
 }
 
 # BLOQUE 6: ALMACENAMIENTO DE AUDITORIA
