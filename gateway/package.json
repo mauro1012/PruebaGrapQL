@@ -1,0 +1,19 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "apollo-server-express": "^3.13.0",
+    "axios": "^1.13.5",
+    "cors": "^2.8.6",
+    "express": "^4.22.1",
+    "graphql": "^16.12.0"
+  }
+}
